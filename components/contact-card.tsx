@@ -16,16 +16,16 @@ export default function ContactCard({ className }: { className?: string }) {
     >
       <h1 className="mb-2 text-blue-500/70">在哪找我</h1>
       <div className="mt-10 flex items-center space-x-5 self-end">
-        <a href="https://twitter.com/noobnooc">
+        <a href="https://twitter.com/huhexian">
           <Twitter className="h-6 w-6 hover:text-[#1DA1F2]" />
         </a>
-        <a href="https://github.com/noobnooc/noobnooc">
+        <a href="https://github.com/huhexian">
           <Github className="h-6 w-6 hover:text-purple-500" />
         </a>
-        <a href="https://www.instagram.com/noobnooc/">
+        <a href="https://www.instagram.com/huhexian/">
           <Instagram className="h-6 w-6 hover:text-[#E4405F]" />
         </a>
-        <a href="mailto:nooc@nooc.ink">
+        <a href="mailto:huhexian0206@gmail.com">
           <EnvelopeIcon className="h-7 w-7 hover:text-green-500" />
         </a>
       </div>

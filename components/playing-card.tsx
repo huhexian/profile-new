@@ -109,7 +109,7 @@ export default function PlayingCard({ className }: { className?: string }) {
       </div>
       <div className="mt-3 overflow-hidden rounded-xl border border-gray-400/20 bg-white/40 p-4 dark:border-white/30 dark:bg-black/30 sm:h-24">
         <p className="opacity-70 transition-all">
-          {selectedItem?.summary ?? <>我来人间一趟, 我要看看太阳。</>}
+          {selectedItem?.summary ?? <>君子可内敛不可懦弱，面不公可起而论之。</>}
         </p>
       </div>
     </Card>

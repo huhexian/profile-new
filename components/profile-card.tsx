@@ -26,7 +26,7 @@ export default function ProfileCard({ className }: { className?: string }) {
         <Card className="flex h-full flex-col items-center justify-center bg-indigo-200/10 py-40 sm:py-20">
           <Image className="h-16 w-16 rounded-full" src={avatar} alt="Avatar" />
           <p className="relative mt-2 items-end text-xl">
-            Nooc
+            Bruce Hu
             <Image
               className="absolute top-0 bottom-0 -right-6 my-auto h-5 w-5"
               // ?

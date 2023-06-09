@@ -13,12 +13,12 @@ export default function Home() {
   return (
     <div className="relative isolate flex min-h-screen flex-col overflow-hidden bg-gray-100 text-black dark:bg-neutral-900 dark:text-gray-100">
       <Head>
-        <title>Nooc&apos;s World</title>
-        <meta name="description" content="Nooc's Home" />
+        <title>Bruce Hu&apos;s Home</title>
+        <meta name="description" content="Bruce Hu's Home" />
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="keywords"
-          content="Nooc, noobnooc, noocink, nookinc, Noob Nooc, Homepage"
+          content="胡和先, 青山绿水, 今是昨非, huhexian, 小胡同学, 胡鹤仙"
         />
       </Head>
       <BackgroundGradient className="top-0 left-0 h-96 w-48 bg-indigo-500/30 duration-500 dark:bg-blue-500/40" />
@@ -41,7 +41,7 @@ export default function Home() {
       </main>
 
       <footer className="text-md py-10 text-center text-sm opacity-60">
-        © 2022 Nooc
+        © 2023 HuHeXian
       </footer>
     </div>
   );

@@ -6,14 +6,20 @@ import SubjectiveWorld from "../public/subjective-world.png";
 
 const items = [
   {
-    name: "github",
-    icon: <Github className="h-11 w-11 rounded-lg bg-black p-1 text-white" />,
-    url: "https://github.com/noobnooc/noobnooc/discussions",
-    title: "技术分享",
-    summary: <>分享一些技术</>,
+    name: "Blog",
+    icon: (
+    <Image
+    className="h-11 w-11 rounded-lg"
+    src={SubjectiveWorld}
+    alt="Subjective World"
+    />
+    ),
+    url: "https://zuofei.net",
+    title: "今是昨非",
+    summary: <>分享我的生活</>,
   },
   {
-    name: "subjective-world",
+    name: "Memo",
     icon: (
       <Image
         className="h-11 w-11 rounded-lg"
@@ -21,9 +27,9 @@ const items = [
         alt="Subjective World"
       />
     ),
-    url: "https://subjective.world",
-    title: "主观世界",
-    summary: <>读书、生活、思考</>,
+    url: "https://memo.eirms.com",
+    title: "Memos",
+    summary: <>偶然所思所想</>,
   },
 ];
 

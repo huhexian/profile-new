@@ -36,7 +36,7 @@ export default function ProfileCard({ className }: { className?: string }) {
               alt="Twitter Verified"
             />
           </p>
-          <p className="mt-2 opacity-60">游离于存在与虚无间的理想主义者</p>
+          <p className="mt-2 opacity-60">一个数码爱好者，写博客的人</p>
 
           <button
             className="absolute right-5 bottom-5 rounded-full border border-gray-400/20 bg-white/40 p-3 dark:border-white/30 dark:bg-black/40"
@@ -49,22 +49,11 @@ export default function ProfileCard({ className }: { className?: string }) {
       back={
         <Card className="flex h-full flex-col items-center justify-center bg-violet-200/10">
           <div>
-            <p>一个人。</p>
+            <p>写博客的人</p>
 
-            <p className="mt-3">男的, </p>
-            <p className="">喜欢看书听歌写代码。</p>
+            <p className="mt-3">大学生</p>
+            <p className="">喜欢阅读、听音乐、写博客。</p>
 
-            <p className="mt-3">听歌喜欢电台随机;</p>
-            <p className="">电影喜欢追着导演看;</p>
-            <p className="">看书偏爱小说，有时也看哲史;</p>
-            <p className="">游戏喜欢买但不爱玩。</p>
-
-            <p className="mt-3">尝试过学画画; </p>
-            <p className="">也买过 MIDI 键盘; </p>
-            <p className="">但仅此而已。</p>
-
-            <p className="mt-3">偏爱泛客户端开发; </p>
-            <p className="">Serverless 爱好者。</p>
           </div>
 
           <button

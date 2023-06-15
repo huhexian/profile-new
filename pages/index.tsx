@@ -15,7 +15,7 @@ export default function Home() {
       <Head>
         <title>Bruce Hu&apos;s Home</title>
         <meta name="description" content="Bruce Hu's Home" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
         <meta
           name="keywords"
           content="胡和先, 青山绿水, 今是昨非, huhexian, 小胡同学, 胡鹤仙"

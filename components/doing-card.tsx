@@ -18,8 +18,8 @@ const items = [
       />
     ),
     url: "https://assischat.com",
-    title: "AssisChat",
-    summary: <>一个 ChatGPT 客户端。</>,
+    title: "Building a Second Brain",
+    summary: <>一本关于第二大脑的书。</>,
   },
   {
     name: "lofyee",
@@ -44,7 +44,7 @@ export default function DoingCard({ className }: { className?: string }) {
         className
       )}
     >
-      <h1 className="mb-2 text-green-500/60">在做什么</h1>
+      <h1 className="mb-2 text-green-500/60">在看什么</h1>
       <div className="mt-2 flex flex-col">
         {items.map((item) => {
           return (

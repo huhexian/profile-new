@@ -2,7 +2,7 @@ import Card from "./card";
 import Image from "next/image";
 import { EnvelopeIcon } from "@heroicons/react/24/solid";
 import { Github, Instagram, Twitter } from "@icons-pack/react-simple-icons";
-import AssisChat from "../public/assischat.png";
+import AssisChat from "../public/brain.jpg";
 import lofyee from "../public/lofyee.png";
 import { useState } from "react";
 import classNames from "classnames";
